@@ -1,0 +1,18 @@
+.columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+}
+
+.columns>ul>li {
+    font-weight: bold;
+    display: inline-block;
+    break-inside: avoid;
+}
+
+.columns>ul>li li {
+    font-weight: normal;
+}
